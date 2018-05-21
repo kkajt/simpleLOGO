@@ -1,0 +1,22 @@
+* {
+
+}
+
+.container {
+    padding: 1em 1em 1em 1em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#myCanvas {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 0 0 0 5em;
+    box-shadow: 0 0 5px 0 #000;
+}
+
+.cmdbox {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
